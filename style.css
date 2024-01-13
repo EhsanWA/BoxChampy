@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MyFontName";
+    src: url("FiraSans-ExtraBold.ttf") format("truetype");
+}
+
+.boy-fight {
+    color: #fff;
+    background-color: #151515;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url('img/Boy\ fight.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px top 0px;
+    background-size: contain;
+}
+
+.seperator {
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-bottom: 10vw solid #ffffff;
+    margin-top: -10vw;
+}
+
+.title {
+    font-size: 75px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+
+.redText {
+    color: #EC3E3E;
+}
+
+/* .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151515;
+} */
+
+.stroke {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151515;
+}
+
+nav ul {
+    list-style: none;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #EC3E3E;
+    text-decoration: underline;
+}
